@@ -1,0 +1,19 @@
+{
+  "name": "wechat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ben",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase": "^7.11.0",
+    "firebase-admin": "^8.10.0",
+    "got": "^10.6.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}

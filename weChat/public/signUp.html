@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>WeChat</title>
+    <style>
+        body {
+            background-color:  gray;
+        }
+  </style>
+  </head>
+  <body>
+      <h1> SignUp</h1>
+      <form >
+    <input type='text'> Enter your email </input>
+    </form>
+    <input type="submit" value="Sign In" onclick="writeData">
+
+    <script>
+        var firebase = require("firebase/app");
+        var database = firebase.database();
+        function writeData() {
+    firebase.database().ref('Messages').set({
+    Messages: "hello everybody"
+  });
+}
+    </script>
+  </body>
+</html>

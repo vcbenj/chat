@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 // start the server listening
 app.listen(port, function() {
   console.log('Node app is running on port', port);
-  
+
 });
 var firebase = require('firebase/app');
 require('firebase/auth');

@@ -11,7 +11,7 @@
     "express": "^4.17.1",
     "firebase": "^7.11.0",
     "firebase-admin": "^8.10.0",
-    "got": "^10.6.0",
+    "got": "^11.8.5",
     "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {},
